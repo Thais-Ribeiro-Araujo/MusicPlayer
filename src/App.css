@@ -1,0 +1,121 @@
+body {
+  background-attachment: fixed;
+  background-color: #0b4e55;
+  background-image: url('/src/images/stacked-peaks-haikei\ \(1\).svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* Hide scrollbar for IE, Edge and Firefox */
+  -ms-overflow-style: none;  /* IE and Edge */
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  scrollbar-width: none;  /* Firefox */
+}
+
+/* Referencia: https://www.w3schools.com/howto/howto_css_hide_scrollbars.asp *
+Hide scrollbar for Chrome, Safari and Opera */
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+* {
+  color: white;
+  font-family: Arial , Helvetica , sans-serif;
+  font-style: normal;
+  font-weight: 500;
+}
+
+main {
+  background-color: rgb(11 78 85);
+  border-radius: 10px;
+  box-shadow: 0 6px 13px 0 black;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-bottom: 9vh;
+  margin-top: 15vh;
+  min-height: 60vh;
+  padding: 40px;
+  transition: all 1s;
+  width: 70%;
+}
+
+h1 {
+  font-style: oblique;
+  margin-left: 5px;
+}
+
+.TrybeTunes-logo {
+  display: flex;
+  left: 40%;
+  position: relative;
+  top: 10vh;
+}
+
+button {
+  background-color: #54dc97;
+  border-radius: 5px;
+  border-style: none;
+  color: black;
+  cursor: pointer;
+  height: 30px;
+  margin: auto;
+  margin-top: 30px;
+  width: 190px;
+}
+
+input {
+  font-size: 15px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+@media ( max-width : 740px ) {
+
+  .search-artist-input {
+    width: 60%;
+  }
+
+  .search-div button {
+    width: 30%;
+  }
+}
+
+@media ( max-width : 500px ) {
+
+  .TrybeTunes-logo {
+    left: 30%;
+  }
+
+  main {
+    padding: 30px;
+  }
+}
+
+@media ( max-width : 450px ) {
+
+  .header-component a {
+    font-size: 15px;
+    margin: 0;
+  }
+
+  .music-card label, .music-card h4 {
+    font-size: 13px;
+  }
+
+  audio {
+    height: 50px;
+  }
+}
+
+@media ( min-width : 300px ) {
+
+  body {
+    overflow-x: hidden;
+  }
+}
+

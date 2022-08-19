@@ -1,0 +1,64 @@
+.search-artist-input {
+  display: inline-block;
+}
+
+.search-results {
+  margin-top: 30px;
+}
+
+.search-div > * {
+  height: 35px;
+}
+
+.search-div button {
+  margin: 0;
+}
+
+.search-results span {
+  font-weight: 700;
+}
+
+.searched-artist {
+  color: #5edb9b;
+}
+
+.albumList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.album-card {
+  background-color: #07373c;
+  border-radius: 10px;
+  margin: 15px 10px;
+  padding: 20px;
+  width: 120px;
+}
+
+.album-artist-name {
+  max-height: 55px;
+  overflow-y: hidden;
+  width: 90%;
+}
+
+.album-title {
+  color: #5edb9b;
+  font-weight: 700;
+}
+
+.album-card a {
+  text-decoration: none;
+}
+
+.abum-artwork img {
+  width: 200;
+}
+
+.search-results .loading {
+  display: table-cell;
+  height: 100%;
+  text-align: center;
+  vertical-align: middle;
+  width: 100%;
+}

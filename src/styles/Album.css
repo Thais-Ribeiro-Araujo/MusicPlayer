@@ -1,0 +1,55 @@
+.tracklist {
+  display: flex;
+  flex-direction: column;
+}
+
+.music-card {
+  display: flex;
+  justify-content: space-around;
+}
+
+.music-card h4 {
+  font-weight: 700;
+  width: 25%;
+}
+
+.music-card label {
+  align-content: center;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-around;
+  width: 60px;
+}
+
+.music-card input {
+  width: 20px;
+}
+
+/* Source: https://codepen.io/dcastanos/pen/FeJiu */
+audio {
+  background-color: white;
+  border-radius: 7px;
+  box-shadow: 2px 2px 4px 0 #006773;
+  transition: all 0.5s linear;
+}
+
+audio:hover, audio:focus, audio:active {
+  box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.4);
+  transform: scale(1.05);
+}
+
+.album-info-wrapper {
+  align-items: center;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.album-info {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+}
+
+h2 {
+  font-weight: 700;
+}
