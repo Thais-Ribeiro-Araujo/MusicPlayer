@@ -20,7 +20,7 @@ Bem vindos(as) ao meu repositorio do projetinho de Front-end TrybeTunes(player m
 
   ### Protótipo do projeto
   É possivel acessar o protótipo no link abaixo:
-
+</br>
   https://www.figma.com/file/BDQgAJvOe4KNUjmrYh5t68/TrybeTunes-Figma
   <br/>
 </section>
