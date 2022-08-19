@@ -19,9 +19,13 @@ Bem vindos(as) ao meu repositorio do projetinho de Front-end TrybeTunes(player m
   - Editar o perfil da pessoa logada;
 
   ### Protótipo do projeto
-  É possivel acessar o protótipo no link abaixo:
+  É possivel acessar o protótipo na imagem e link abaixo:
 
   https://www.figma.com/file/BDQgAJvOe4KNUjmrYh5t68/TrybeTunes-Figma
+  <br/>
+  <img src="trybetuneshomepage.png"></img>
+  <br/>
+  <br/>
 </section>
 <br/>
 <section>
